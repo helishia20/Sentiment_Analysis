@@ -84,10 +84,11 @@ pip install torch numpy scikit-learn transformers pandas gradio
 ### File Arrangement
 Ensure your workspace directory contains both the Python script and the dataset files:
 
-Plaintext
+```Plaintext
 ├── sentiment_benchmark.py
 ├── train_text.txt
 └── train_labels.txt
+```
 ###Execution
 Run the full automated benchmark directly from your terminal:
 
