@@ -106,6 +106,10 @@ When executed, the script automatically steps through the following phases:
 ###Failure Diagnostics: Performs batched error inferences on the test set and prints a slice of 10 structural misclassifications.
 
 ###Gradio Launch: Deploys a live interactive web dashboard loading the champion Twitter-RoBERTa model.
+
+<p align="center">
+  <img src="Capture.JPG" width="600" alt="Gradio Dashboard">
+</p>
 ---
 
 ## 👤 Author & Contact
