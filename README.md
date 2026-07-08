@@ -72,16 +72,16 @@ torch.cuda.empty_cache()
 ### C. Domain-Specific Tokenization vs. Vanilla Text
 Twitter-RoBERTa and BERTweet outclassed all other architectures. This demonstrates that specialized tokenizers (such as Byte-Level BPE trained on social media text) preserve the semantic integrity of emojis, handles, and slang tokens, whereas standard models split them into meaningless sub-words.
 
-##🚀 6. Step-by-Step Execution Guide
+## 🚀 6. Step-by-Step Execution Guide
 The entire end-to-end pipeline is consolidated into a single standalone production script: sentiment_benchmark.py.
 
-###Installation
+### Installation
 Install all technical dependencies via pip:
 
 ```Bash
 pip install torch numpy scikit-learn transformers pandas gradio
 ```
-###File Arrangement
+### File Arrangement
 Ensure your workspace directory contains both the Python script and the dataset files:
 
 Plaintext
@@ -94,18 +94,18 @@ Run the full automated benchmark directly from your terminal:
 ```Bash
 python sentiment_benchmark.py
 ```
-###Pipeline Automation Workflow
+### Pipeline Automation Workflow
 When executed, the script automatically steps through the following phases:
 
-###Hardware Validation: Scans and connects to an active CUDA GPU environment.
+### Hardware Validation: Scans and connects to an active CUDA GPU environment.
 
-###Data Pipeline: Loads files, executes an 80/10/10 split, and provisions custom PyTorch Dataset wrappers.
+### Data Pipeline: Loads files, executes an 80/10/10 split, and provisions custom PyTorch Dataset wrappers.
 
-###Sequential Training: Fine-tunes all 7 models, utilizing safe configurations per model type.
+### Sequential Training: Fine-tunes all 7 models, utilizing safe configurations per model type.
 
-###Failure Diagnostics: Performs batched error inferences on the test set and prints a slice of 10 structural misclassifications.
+### Failure Diagnostics: Performs batched error inferences on the test set and prints a slice of 10 structural misclassifications.
 
-###Gradio Launch: Deploys a live interactive web dashboard loading the champion Twitter-RoBERTa model.
+### Gradio Launch: Deploys a live interactive web dashboard loading the champion Twitter-RoBERTa model.
 
 <p align="center">
   <img src="Capture.JPG" width="600" alt="Gradio Dashboard">
