@@ -115,7 +115,7 @@ When executed, the script automatically steps through the following phases:
 
 ## 👤 Author & Contact
 
-Developed with 💻 by **[Your Name]** Undergraduate Computer Engineering Student
+Developed with 💻 by **[Elham Nasiri]** Undergraduate Computer Engineering Student
 
 If you have any questions, suggestions, or want to collaborate on similar NLP/ML projects, feel free to reach out!
 
