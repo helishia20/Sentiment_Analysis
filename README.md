@@ -119,8 +119,8 @@ Developed with 💻 by **[Elham Nasiri]** Undergraduate Computer Engineering Stu
 
 If you have any questions, suggestions, or want to collaborate on similar NLP/ML projects, feel free to reach out!
 
-* **🌐 LinkedIn:** [linkedin.com/in/elhamnasiri](https://linkedin.com/in/elham-nasiri-2bb284358)
-* **💻 GitHub Profile:** [@your-github-username](https://github.com/ٍhelishia20)
+* **🌐 LinkedIn:**(https://linkedin.com/in/elham-nasiri-2bb284358)
+* **💻 GitHub Profile:** (https://github.com/ٍhelishia20)
 
 
 ---
